@@ -1,0 +1,2 @@
+# pangEvents
+An event manager
