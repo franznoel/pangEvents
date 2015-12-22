@@ -93,14 +93,29 @@ header {
     min-height:30px;
     max-height:30px;
 }
+#event-list .eventHost {
+    font-size:12px;
+    min-height:20px;
+    max-height:20px;
+}
 #event-list .eventDescription {
     margin:5px 0 0 0;
     min-height:60px;
     max-height:60px;
 }
+#event-list .eventLocation {
+    font-size:12px;
+    min-height:20px;
+    max-height:20px;
+}
 #event-list .eventDescription p {
     font-size:14px;
 }
+#event-list .no-events {
+    color:#888888;
+    text-shadow:1px 1px 1px #ffffff;
+}
+
 .custom-font a {
     font-family: 'Passion One', cursive;
     font-weight: bold;
@@ -111,9 +126,6 @@ header {
     -webkit-text-stroke: 1px $color-absinthe;
     -webkit-text-fill-color:#ffffff;
     color:$color-absinthe;
-}
-.eventSearch {
-    color: $color-artemesia;
 }
 
 
